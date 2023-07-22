@@ -1,0 +1,42 @@
+/* work sans font */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&family=Work+Sans:wght@400;500;600;700;800&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header-about-us {
+  display: flex;
+
+  align-items: center;
+}
+.header-gamer {
+  display: flex;
+ 
+}
+
+.header-gamer h1{
+    margin-left: 10px;
+}
+.follow-us-part a {
+  color: blue;
+}
+.follow-us-part{
+    background-color: antiquewhite;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+a {
+  text-decoration: none;
+}
+
+header a{
+    list-style: none;
+    margin-right: 10px;
+    color: black;
+}
