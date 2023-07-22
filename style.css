@@ -40,3 +40,38 @@ header a{
     margin-right: 10px;
     color: black;
 }
+
+
+/* play like goat section style */
+.play-like-goat{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.goat{
+    color: rgb(218, 159, 83);
+    font-size: 50px;
+    font-weight: 700;
+}
+.play-like-goat-btn{
+    display: flex;
+   
+    
+}
+.btn{
+    background-color: rgb(241, 196, 191);
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+
+}
+.btn-secondary{
+    margin-left: 10px;
+}
+
+.play-like-goat-img img{
+    height: 300px;
+    width: auto;
+}
