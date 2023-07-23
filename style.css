@@ -17,108 +17,123 @@
 }
 .header-gamer {
   display: flex;
- 
 }
 
-.header-gamer h1{
-    margin-left: 10px;
+.header-gamer h1 {
+  margin-left: 10px;
 }
 .follow-us-part a {
   color: blue;
 }
-.follow-us-part{
-    background-color: antiquewhite;
-    border-radius: 5px;
-    padding-left: 20px;
+.follow-us-part {
+  background-color: antiquewhite;
+  border-radius: 5px;
+  padding-left: 20px;
 }
 a {
   text-decoration: none;
 }
 
-header a{
-    list-style: none;
-    margin-right: 10px;
-    color: black;
+header a {
+  list-style: none;
+  margin-right: 10px;
+  color: black;
 }
-
 
 /* play like goat section style */
-.play-like-goat{
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.goat{
-    color: rgb(218, 159, 83);
-    font-size: 50px;
-    font-weight: 700;
-}
-.play-like-goat-btn{
-    display: flex;
-   
-    
-}
-.btn{
-    background-color: rgb(241, 196, 191);
-    height: 50px;
-    width: 100px;
-    border-radius: 5px;
-    border: none;
-
-}
-.btn-secondary{
-    margin-left: 10px;
-}
-
-.play-like-goat-img img{
-    height: 300px;
-    width: auto;
-}
-
-/* -----------online games section style--------- */
-.online-games-section{
+.play-like-goat {
   margin-top: 50px;
-  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.online-games-img{
+.goat {
+  color: rgb(218, 159, 83);
+  font-size: 50px;
+  font-weight: 700;
+}
+.play-like-goat-btn {
+  display: flex;
+}
+.btn {
+  background-color: rgb(241, 196, 191);
+  height: 50px;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+}
+.btn-secondary {
+  margin-left: 10px;
+}
+
+.play-like-goat-img img {
   height: 300px;
   width: auto;
 }
-.online-games-pic{
+
+/* -----------online games section style--------- */
+.online-games-section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.online-games-img {
+  height: 300px;
+  width: auto;
+}
+.online-games-pic {
   /* margin-left:10px; */
   display: flex;
   justify-content: space-between;
 }
-.online-games-text{
+.online-games-text {
   margin-left: 500px;
   margin-bottom: 50px;
   font-size: 20px;
   font-weight: 700;
 }
-.online-games-text-p{
+.online-games-text-p {
   font-weight: 70;
 }
-.funny-videos-text{
+.funny-videos-text {
   color: rgb(247, 104, 247);
 }
 
-
-
-
-
-
-
-
+/* ---------play instantly design---------- */
+.play-instantly-section {
+  display: flex;
+  justify-content: space-between;
+}
+.play-instantly-text h1{
+  font-size: 40px;
+  font-weight: 700;
+}
+.play-instantly-text p{
+  font-size: 20px;
+  font-weight:400;
+}
+.play-instantly-title {
+  color: rgb(223, 113, 149);
+}
+.play-instantly-pic {
+  display: grid;
+}
+.play-instantly-pic-1 {
+  position: relative;
+  bottom: 180px;
+}
+.play-instantly-text{
+  margin-left: 200px;
+}
 
 
 /* 
 ----------------responsive------------ */
-@media screen and (max-width: 576px){
-  .online-games-text,.online-games-pic{
+@media screen and (max-width: 576px) {
+  .online-games-text,
+  .online-games-pic {
     /* display:grid; */
     flex-direction: column;
-  
+
     /* grid-template-columns: 1fr; */
   }
 }
