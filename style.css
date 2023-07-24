@@ -97,15 +97,14 @@ header a {
 .funny-videos-text {
   color: rgb(247, 104, 247);
 }
-.fa-solid{
+.fa-solid {
   font-size: 70px;
   position: relative;
   bottom: 100px;
   left: -150px;
   color: aliceblue;
- 
 }
-.online-games-img-3{
+.online-games-img-3 {
   filter: blur(3px);
 }
 
@@ -173,62 +172,116 @@ div > button:hover {
   border-radius: 5px;
   margin-top: 50px;
   height: 500px;
-  
 }
-.footer-g{
+.footer-g {
   color: rgb(229, 147, 229);
 }
-.footer-title{
+.footer-title {
   display: flex;
   justify-content: center;
   padding-top: 20px;
- 
 }
-.footer-title>h3{
+.footer-title > h3 {
   font-size: 30px;
   margin-left: 10px;
 }
-.footer-shortcut{
+.footer-shortcut {
   display: flex;
   justify-content: center;
 }
-.txt{
+.txt {
   margin-left: 30px;
   margin-top: 20px;
 }
 
-.footer-icons{
+.footer-icons {
   display: flex;
   justify-content: center;
 }
-.fa-brands{
+.fa-brands {
   margin-left: 50px;
   font-size: 40px;
   margin-top: 20px;
 }
-.footer-settings{
+.footer-settings {
   display: flex;
   justify-content: center;
-
 }
-.footer-settings-txt{
+.footer-settings-txt {
   margin-left: 30px;
 }
-.copyright{
+.copyright {
   display: flex;
   justify-content: center;
   margin-top: 30px;
 }
 
-
 /* 
-----------------responsive------------ */
-@media screen and (max-width: 576px) {
+----------------responsive for small devices------------ */
+/* @media screen and (max-width: 576px) {
   .online-games-text,
   .online-games-pic {
     /* display:grid; */
-    flex-direction: column;
+/* flex-direction: column; */
 
-    /* grid-template-columns: 1fr; */
+/* grid-template-columns: 1fr; */
+/* }
+} */
+
+@media screen and (max-width: 576px) {
+  .header,
+  .header-about-us,
+  .follow-us-part,
+  .play-like-goat,
+  .online-games-section,
+  .online-games-pic,
+  .play-instantly-section {
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .header-gamer {
+    justify-content: center;
+  }
+  .icon-btn-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer {
+    flex-wrap: wrap;
+  }
+}
+
+/* responsive for medium devices */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .header,
+  .header-about-us,
+  .follow-us-part,
+  .online-games-pic,
+  .online-games-section,
+  .play-instantly-section {
+    padding: 20px;
+    flex-direction: column;
+  }
+  .online-games-pic,
+  .online-games-img-3 {
+    width: 200px;
+  }
+  .online-games-section {
+    justify-content: center;
+  }
+  .online-games-img {
+    margin-bottom: 10px;
+  }
+  .header-gamer {
+    justify-content: center;
+  }
+  .icon-btn-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .footer {
+    flex-wrap: wrap;
   }
 }
