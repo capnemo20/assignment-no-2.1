@@ -103,13 +103,13 @@ header a {
   display: flex;
   justify-content: space-between;
 }
-.play-instantly-text h1{
+.play-instantly-text h1 {
   font-size: 40px;
   font-weight: 700;
 }
-.play-instantly-text p{
+.play-instantly-text p {
   font-size: 20px;
-  font-weight:400;
+  font-weight: 400;
 }
 .play-instantly-title {
   color: rgb(223, 113, 149);
@@ -121,51 +121,93 @@ header a {
   position: relative;
   bottom: 180px;
 }
-.play-instantly-text{
+.play-instantly-text {
   margin-left: 200px;
 }
 
 /* <!-- ----------icon button section style----------- --> */
-.btn-img{
+.btn-img {
   height: 100px;
   width: 200px;
   margin-bottom: 10px;
   margin-left: 10px;
   border-radius: 5px;
 }
-.icon-btn-section .img{
+.icon-btn-section .img {
   height: 40px;
   margin-right: 10px;
 }
-.icon-btn-section{
+.icon-btn-section {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-.div{
+.div {
   flex: 0 0 calc(33.33%-20px);
   margin: 20px;
 }
-div>button:hover{
+div > button:hover {
   background-color: rgb(219, 237, 237);
   border: 1px solid darkviolet;
   color: red;
   font-size: 20px;
   font-weight: 500;
 }
-/* .btn-img{
-  flex: 0 0 calc(20%-100px);
-  margin: 5px;
-} */
-/* .div-1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
+
 /* <!-- ----------icon button section style----------- --> */
 
+/* footer style */
+.footer {
+  background-color: antiquewhite;
+  border-radius: 5px;
+  margin-top: 50px;
+  height: 500px;
+  
+}
+.footer-g{
+  color: rgb(229, 147, 229);
+}
+.footer-title{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+ 
+}
+.footer-title>h3{
+  font-size: 30px;
+  margin-left: 10px;
+}
+.footer-shortcut{
+  display: flex;
+  justify-content: center;
+}
+.txt{
+  margin-left: 30px;
+  margin-top: 20px;
+}
 
+.footer-icons{
+  display: flex;
+  justify-content: center;
+}
+.fa-brands{
+  margin-left: 50px;
+  font-size: 40px;
+  margin-top: 20px;
+}
+.footer-settings{
+  display: flex;
+  justify-content: center;
 
+}
+.footer-settings-txt{
+  margin-left: 30px;
+}
+.copyright{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
 
 
 /* 
