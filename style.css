@@ -125,6 +125,48 @@ header a {
   margin-left: 200px;
 }
 
+/* <!-- ----------icon button section style----------- --> */
+.btn-img{
+  height: 100px;
+  width: 200px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+.icon-btn-section .img{
+  height: 40px;
+  margin-right: 10px;
+}
+.icon-btn-section{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.div{
+  flex: 0 0 calc(33.33%-20px);
+  margin: 20px;
+}
+div>button:hover{
+  background-color: rgb(219, 237, 237);
+  border: 1px solid darkviolet;
+  color: red;
+  font-size: 20px;
+  font-weight: 500;
+}
+/* .btn-img{
+  flex: 0 0 calc(20%-100px);
+  margin: 5px;
+} */
+/* .div-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+/* <!-- ----------icon button section style----------- --> */
+
+
+
+
 
 /* 
 ----------------responsive------------ */
