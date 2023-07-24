@@ -97,6 +97,17 @@ header a {
 .funny-videos-text {
   color: rgb(247, 104, 247);
 }
+.fa-solid{
+  font-size: 70px;
+  position: relative;
+  bottom: 100px;
+  left: -150px;
+  color: aliceblue;
+ 
+}
+.online-games-img-3{
+  filter: blur(3px);
+}
 
 /* ---------play instantly design---------- */
 .play-instantly-section {
